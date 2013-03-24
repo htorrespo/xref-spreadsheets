@@ -11,11 +11,13 @@ Cross-referencing the two spreadsheets on the first and last name fields allowed
 Examples:
 
 spreadsheet_one_as_dict = CSVtoDict(file1)
+
 spreadsheet_two_as_dict = CSVtoDict(file2)
 
 or
 
 spreadsheet_one_as_dict = XLStoDict(file3, "int")
+
 spreadsheet_two_as_dict = XLStoDict(file4, "int")
 
 then:
